@@ -4,6 +4,8 @@ import StateTutorial from "./UseState/StateTutorial";
 import ReducerTutorial from "./UseReducer/ReducerTutorial";
 import EffectTutorial from "./UseEffect/EffectTutorial";
 import RefTutorial from "./UseRef/RefTutorial";
+import LayoutEffectTutorial from "./UseLayoutEffect/UseLayoutEffectTutorial";
+import UseImperativeHandle from "./UseImperativeHandle/UseImperativeHandle";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <ReducerTutorial />
       <EffectTutorial />
       <RefTutorial />
+      <LayoutEffectTutorial />
+      <UseImperativeHandle />
     </div>
   );
 }
