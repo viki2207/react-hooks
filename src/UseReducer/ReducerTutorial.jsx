@@ -1,5 +1,10 @@
 import React, { useReducer } from "react";
 //use reducer maily used for the yhe we have multiple state in one application that type instead of use state we use use reducer we can easily maintain that things
+//When to use useReducer ?
+//For more complex state logic.
+//When state transitions depend on the previous state.
+//When managing multiple related pieces of state.
+
 const reducer = (state, action) => {
   switch (action.type) {
     case "INCREMENT":
