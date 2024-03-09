@@ -3,6 +3,7 @@ import "./App.css";
 import StateTutorial from "./UseState/StateTutorial";
 import ReducerTutorial from "./UseReducer/ReducerTutorial";
 import EffectTutorial from "./UseEffect/EffectTutorial";
+import RefTutorial from "./UseRef/RefTutorial";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <StateTutorial />
       <ReducerTutorial />
       <EffectTutorial />
+      <RefTutorial />
     </div>
   );
 }
