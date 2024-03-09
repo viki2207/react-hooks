@@ -7,6 +7,7 @@ import RefTutorial from "./UseRef/RefTutorial";
 import LayoutEffectTutorial from "./UseLayoutEffect/UseLayoutEffectTutorial";
 import UseImperativeHandle from "./UseImperativeHandle/UseImperativeHandle";
 import ContextTutorial from "./UseContext/ContextTutorial";
+import MemoTutorial from "./UseMemo/UseMemoTutorial";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <LayoutEffectTutorial />
       <UseImperativeHandle />
       <ContextTutorial />
+      <MemoTutorial />
     </div>
   );
 }
