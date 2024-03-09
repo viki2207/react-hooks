@@ -8,6 +8,7 @@ import LayoutEffectTutorial from "./UseLayoutEffect/UseLayoutEffectTutorial";
 import UseImperativeHandle from "./UseImperativeHandle/UseImperativeHandle";
 import ContextTutorial from "./UseContext/ContextTutorial";
 import MemoTutorial from "./UseMemo/UseMemoTutorial";
+import CallBackTutorial from "./UseCallback/UseCallbackTutorial";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <UseImperativeHandle />
       <ContextTutorial />
       <MemoTutorial />
+      <CallBackTutorial />
     </div>
   );
 }
